@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Pacifico&family=Roboto+Condensed:ital,wght@0,400;1,300&family=Satisfy&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+   
+
+
+    <header>
+        <h1>CSS Positioning</h1>
+      </header>
+
+      <main>
+
+        <div class="button-group">
+          <button class="button" id="static-btn">Static Positioning</button>
+          <button class="button" id="relative-btn">Relative Positioning</button>
+          <button class="button" id="absolute-btn">Absolute Positioning</button>
+          <button class="button" id="fixed-btn">Fixed Positioning</button>
+        </div>
+        <br>
+        <hr>
+
+        <div class="main-box">
+
+        
+        <div class="positioning-type static" style="display: block;">
+
+          <h2>Static Positioning</h2>
+          <code>
+            position: static;<br>
+            left: 50px;<br>
+            top: 50px;<br></code>
+          <div class="box"></div>
+        </div>
+
+        <div class="positioning-type relative">
+          <h2>Relative Positioning</h2>
+          <code>position: relative;<br />
+          left: 50px;<br/>
+          top: 50px;<br/></code>
+          <div class="box"></div>
+        </div>
+
+        <div class="positioning-type absolute">
+          <h2>Absolute Positioning</h2>
+          <code>
+              position: absolute;<br>
+              top: 50px;<br>
+              left: 50px;<br>
+          </code>
+          <div class="box"></div>
+        </div>
+
+        <div class="positioning-type fixed">
+          <h2>Fixed Positioning</h2>
+          <h2>Scroll The Page Up and Down?</h2>
+          <code>
+                position: fixed;<br>
+                top: 50px;<br>
+                left: 50px;<br>
+          </code>
+
+          <div class="box"></div>
+
+        </div>    
+
+        </div>
+
+      </main>
+
+ 
+     
+      <footer> 
+        <a href="simple.html">Go To Simple CSS Positioning Page</a>
+        <p>&copy;2023 Luis Ramirez</p>
+      </footer>
+
+      <script src="main.js"></script>
+    
+</body>
+</html>

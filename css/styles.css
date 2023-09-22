@@ -1,0 +1,123 @@
+.button-group {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  a {
+    font-size: 18px;
+    color:rgb(60, 2, 130);
+    background-color: coral;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px #0684f3;
+  }
+
+  .button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: cursive;
+    border: none;
+    border-radius: 4px;
+    background-color: indigo;
+    color: white;
+    cursor: pointer;
+  }
+.box {
+    width : 250px;
+    height: 250px;
+    background-image: url("http://source.unsplash.com/random/250x250");
+    border : 2px solid royalblue;
+}
+
+div {
+    outline: 1px solid rgb(3, 75, 134);
+    display: block;
+}
+
+header {
+    margin-top: 0;
+    padding-top: 0;
+    font-family: 'Pacifico', cursive;
+    text-shadow: #FC0 10px 0 10px;
+    font-size: 3em;
+    background-image: url(https://www.shutterstock.com/shutterstock/photos/2274412231/display_1500/stock-vector-many-rainbow-gradient-random-bright-soft-balls-background-colorful-balls-background-for-kids-zone-2274412231.jpg);
+}
+
+body {background-color: rgb(54, 7, 99);}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin: 0 50%;
+    margin-bottom: 4em;
+  }
+
+  div.positioning-type {
+    
+    outline: 5px solid rgb(134, 42, 3);
+  }
+
+  .positioning-type {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border: 3px solid #9ae714;
+    padding: 20px;
+    display: none;
+    color:greenyellow;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 16px;
+    text-shadow: 2px 2px 2px red, 0 0 1em rgb(0, 213, 255), 0 0 0.2em rgb(30, 255, 0);
+  }
+
+  .positioning-type h2 {
+    color:aliceblue;
+    margin-top: 0;
+    font-size: 24px;
+    text-shadow: 5px 5px #011605;
+  }
+  .static .box {
+    position: static;
+    left: 50px;
+    top: 50px;
+  }
+  
+  .relative .box {
+    position: relative;
+    left: 50px;
+    top: 50px;
+  }
+  
+  .absolute .box {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  
+  .fixed .box {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+  }
+
+  footer {
+    background-color: #3f6b83;
+    padding: 10px;
+    
+    box-sizing: border-box;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-family: 'Satisfy', cursive;
+    width: 100%;
+  }
+
+  footer p {
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+    color: rgb(0, 255, 162);
+  }
+  

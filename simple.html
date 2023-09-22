@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    body {
+      background-image: url(https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/15/52/img_3450.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg);
+    }
+
+    .red-box {
+      width: 600px;
+      height: 400px;
+      background-color: red;
+      border: 5px solid black;
+    }
+    .blue-box {
+      background-color: blue;
+      width: 500px;
+      height: 300px;
+      position: absolute;
+      border: 5px solid black;
+      top: 200px;
+      left: 200px;
+    }
+
+    .red-circle {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      border: 5px solid black;
+      border-radius: 50%;
+      position: relative;
+      /* top: 200px;
+      left: 200px; */
+    }
+
+    .violet-circle {
+      width: 200px;
+      height: 200px;
+      background-color: violet;
+      border: 5px solid black;
+      border-radius: 50%;
+      position: absolute;
+      /* top: 200px;
+      left: 200px; */
+    }
+
+    .green-circle {
+      width: 220px;
+      height: 220px;
+      background-color: rgb(11, 236, 79);
+      border: 5px solid black;
+      border-radius: 50%;
+      position: relative;
+      /* top: 200px;
+      left: 200px; */
+      z-index: 2;
+    }
+
+    .orange-circle  {
+      width: 220px;
+      height: 220px;
+      background-color: rgb(236, 94, 11);
+      border: 5px solid black;
+      border-radius: 50%;
+      position: absolute;
+      top: 35px;
+      left: 150px;
+      z-index: 1;
+    }
+
+    a {
+      font-size: 18px;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <div class="red-box">
+    <div class="green-circle"></div>
+    <div class="red-circle"></div>
+    <div class="blue-box">
+      <div class="green-circle"></div>
+      <div class="red-circle"></div>
+      <div class="violet-circle"></div>
+      <div class="orange-circle"></div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <hr>
+  <a href="index.html">Go To Main Page</a>
+</body>
+
+
+</html>
