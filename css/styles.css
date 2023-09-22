@@ -51,7 +51,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
-    margin: 0 50%;
+    
     margin-bottom: 4em;
   }
 
