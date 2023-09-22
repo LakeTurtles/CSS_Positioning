@@ -24,11 +24,45 @@
     color: white;
     cursor: pointer;
   }
+
+  .static-position {
+    width : 250px;
+    height: 250px;
+    border : 2px solid royalblue;
+    position: relative;
+    left: 50px;
+    bottom: 201px;
+    z-index: 2;
+  }
+
+  .static-position.fixed {
+    width : 250px;
+    height: 250px;
+    border : 2px solid royalblue;
+    position: relative;
+    right: 50px;
+    top: 5px;
+    z-index: 2;
+  }
+
+  .static-position.absolute {
+    width : 250px;
+    height: 250px;
+    border : 2px solid royalblue;
+    position: relative;
+    right: 50px;
+    top: 52px;
+    z-index: 2;
+  }
+
+
+
 .box {
     width : 250px;
     height: 250px;
     background-image: url("http://source.unsplash.com/random/250x250");
     border : 2px solid royalblue;
+    z-index: 3;
 }
 
 div {
@@ -59,6 +93,8 @@ main {
     
     outline: 5px solid rgb(134, 42, 3);
   }
+
+  
 
   .positioning-type {
     width: 400px;
